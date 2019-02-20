@@ -19,9 +19,11 @@ The next step is to choose the amount of subplots in the figure, the library sup
 FIGURES:
 - 2's Plot:
 ![PLOT 2](https://github.com/brunaostii/Lib_Plot_Graph/blob/master/Px_pais2.png)
-</br>
+
 - 3's Plot:
-![PLOT 3](https://github.com/brunaostii/Lib_Plot_Graph/blob/master/particoes_PX_pais5.png) </br>
+![PLOT 3](https://github.com/brunaostii/Lib_Plot_Graph/blob/master/particoes_PX_pais5.png) 
 </br>
+</br>  
+
 Author:</br>
-- Bruna Almeida Osti
+- Bruna Almeida Osti</br>
