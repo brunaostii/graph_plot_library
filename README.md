@@ -1,10 +1,7 @@
 # Graph's Plot Library 
-#### Author: Bruna Almeida Osti
-
 
 <p> This library generates a figure through an adjacency matrix, this being only a plot, or counting on: 2, 3, 4 or 6 subplots in the same figure.</p>
 You can import through the code below:
-
 
 **from Graph import Adjacency**
 
@@ -22,6 +19,9 @@ The next step is to choose the amount of subplots in the figure, the library sup
 FIGURES:
 - 2's Plot:
 ![PLOT 2](https://github.com/brunaostii/Lib_Plot_Graph/blob/master/Px_pais2.png)
-
+</br>
 - 3's Plot:
-![PLOT 3](https://github.com/brunaostii/Lib_Plot_Graph/blob/master/particoes_PX_pais5.png)
+![PLOT 3](https://github.com/brunaostii/Lib_Plot_Graph/blob/master/particoes_PX_pais5.png) </br>
+</br>
+Author:</br>
+- Bruna Almeida Osti
