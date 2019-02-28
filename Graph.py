@@ -63,8 +63,8 @@ class AdjacencyMatrix(object):
 
         fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(10, 5))
 
-        dictionary1 = nx.spring_layout(G)
-        dictionary2 = nx.spring_layout(H)
+        dictionary1 = nx.spring_layout(graph_layout1)
+        dictionary2 = nx.spring_layout(graph_layout2)
 
         nx.draw_networkx_nodes(graph_layout1, dictionary1, ax=axes[0])
         nx.draw_networkx_labels(graph_layout1, dictionary1, ax=axes[0])
@@ -112,9 +112,9 @@ class AdjacencyMatrix(object):
                     adjacent_matrix3[j][i] = 0
 
         fig, axes = plt.subplots(nrows=1, ncols=3, figsize=(8, 4))
-        dictionary1 = nx.spring_layout(G)
-        dictionary2 = nx.spring_layout(H)
-        dictionary3 = nx.spring_layout(I)
+        dictionary1 = nx.spring_layout(graph_layout1)
+        dictionary2 = nx.spring_layout(graph_layout2)
+        dictionary3 = nx.spring_layout(graph_layout3)
 
         nx.draw_networkx_nodes(graph_layout1, dictionary1, ax=axes[0])
         nx.draw_networkx_labels(graph_layout1, dictionary1, ax=axes[0])
@@ -176,10 +176,10 @@ class AdjacencyMatrix(object):
                     adjacent_matrix4[j][i] = 0
 
         fig, axes = plt.subplots(nrows=2, ncols=2, figsize=(4, 2))
-        dictionary1 = nx.spring_layout(G)
-        dictionary2 = nx.spring_layout(H)
-        dictionary3 = nx.spring_layout(I)
-        dictionary4 = nx.spring_layout(J)
+        dictionary1 = nx.spring_layout(graph_layout1)
+        dictionary2 = nx.spring_layout(graph_layout2)
+        dictionary3 = nx.spring_layout(graph_layout3)
+        dictionary4 = nx.spring_layout(graph_layout4)
 
         nx.draw_networkx_nodes(graph_layout1, dictionary1, ax=axes[0, 0])
         nx.draw_networkx_labels(graph_layout1, dictionary1, ax=axes[0, 0])
@@ -265,12 +265,12 @@ class AdjacencyMatrix(object):
                     adjacent_matrix6[j][i] = 0
 
         fig, axes = plt.subplots(nrows=2, ncols=3, figsize=(24, 24))
-        dictionary1 = nx.spring_layout(G)
-        dictionary2 = nx.spring_layout(H)
-        dictionary3 = nx.spring_layout(I)
-        dictionary4 = nx.spring_layout(J)
-        dictionary5 = nx.spring_layout(K)
-        dictionary6 = nx.spring_layout(L)
+        dictionary1 = nx.spring_layout(graph_layout1)
+        dictionary2 = nx.spring_layout(graph_layout2)
+        dictionary3 = nx.spring_layout(graph_layout3)
+        dictionary4 = nx.spring_layout(graph_layout4)
+        dictionary5 = nx.spring_layout(graph_layout5)
+        dictionary6 = nx.spring_layout(graph_layout6)
 
         nx.draw_networkx_nodes(graph_layout1, dictionary1, ax=axes[0, 0])
         nx.draw_networkx_labels(graph_layout1, dictionary1, ax=axes[0, 0])
