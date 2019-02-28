@@ -30,10 +30,10 @@ class AdjacencyMatrix(object):
                     adjacent_matrix[i][j] = 0
                     adjacent_matrix[j][i] = 0
 
-        dictionary = nx.spring_layout(Graph_layout)
-        nx.draw_networkx_nodes(Graph_layout, dictionary)
-        nx.draw_networkx_labels(Graph_layout, dictionary)
-        nx.draw_networkx_edges(Graph_layout, dictionary)
+        dictionary = nx.spring_layout(graph_layout)
+        nx.draw_networkx_nodes(graph_layout, dictionary)
+        nx.draw_networkx_labels(graph_layout, dictionary)
+        nx.draw_networkx_edges(graph_layout, dictionary)
         plt.title(title)
         plt.show()
 
