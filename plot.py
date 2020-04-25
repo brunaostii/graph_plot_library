@@ -160,14 +160,18 @@ class plotar(object):
 
 
 
-    def passarprastring(self, graph):
+    def passarprastring(self, dataset):
 
-        graph, values, keys = defaultdict(dict), [], list(graph.keys())
+        graph = defaultdict(dict)
+        values = list()
+        keys = list(dataset.keys())
+
         
         for i in keys:
-            keys2 = list(graph[i].keys())
+            keys2 = list(dataset[i].keys())
 
             for j in keys2:
+
                 graph[str(i)][str(j)] = dataset[i][j]
                 graph[str(j)][str(i)] = dataset[i][j]
 
